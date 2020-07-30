@@ -15,7 +15,7 @@ spec:
         app.kubernetes.io/name: test-example
     spec:
       containers:
-      - image: zyt531686350/interblog:v1.0
+      - image: nginxdemos/hello
         name: test
         ports:
         - containerPort: 80
